@@ -423,7 +423,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 80
+                            "ioValue": 70
                         },
                         {
                             "name": "Sprocket One Size",
@@ -438,7 +438,7 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "GT2 Pulley 20tooth",
-                    "x": 207,
+                    "x": 223,
                     "y": 244,
                     "uniqueID": 204724,
                     "projectID": "229327101",
@@ -474,7 +474,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 80
+                            "ioValue": 70
                         },
                         {
                             "name": "yDist",
