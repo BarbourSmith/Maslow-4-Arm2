@@ -2,8 +2,10 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|M4 x 20mm Bolt|2|$0.24|https://www.mcmaster.com/91239a152|
 |11mm M4 Spacer|2|$3.10|https://www.mcmaster.com/92871a311|
+|M4 Locknut|2|$0.23|https://www.mcmaster.com/94645a101|
 |Spool|1|$16.00|www.example.com|
-|Total: |3|$19.10| |
+|Total: |7|$19.57| |
 
- 3xCOG MSRP: $57.30
+ 3xCOG MSRP: $58.71

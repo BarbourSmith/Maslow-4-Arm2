@@ -2,9 +2,238 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Hardware Stack",
+            "x": 259,
+            "y": 139,
+            "uniqueID": 744299,
+            "ioValues": [
+                {
+                    "name": "Metal Thickness",
+                    "ioValue": 3.125
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Metal Thickness",
+                    "x": 30,
+                    "y": 148,
+                    "uniqueID": 760886,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 219,
+                    "y": 118,
+                    "uniqueID": 954304,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 3.125
+                        }
+                    ],
+                    "currentEquation": "T + 11"
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "M4 Locknut",
+                    "x": 225,
+                    "y": 247,
+                    "uniqueID": 250281,
+                    "projectID": "201057537",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "M4x20 Bolt",
+                    "x": 337,
+                    "y": 124,
+                    "uniqueID": 223516,
+                    "projectID": "198850770",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "11mm M4 Spacer",
+                    "x": 392,
+                    "y": 47,
+                    "uniqueID": 506380,
+                    "projectID": "229320887",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 446,
+                    "y": 220,
+                    "uniqueID": 531446,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 3.125
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 564,
+                    "y": 113,
+                    "uniqueID": 470428,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 14.125
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 624,
+                    "y": 218,
+                    "uniqueID": 877744,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 758,
+                    "y": 90,
+                    "uniqueID": 245726,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 760886,
+                    "ap2ID": 531446
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap2Primary": false,
+                    "ap1ID": 760886,
+                    "ap2ID": 954304
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 954304,
+                    "ap2ID": 470428
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 250281,
+                    "ap2ID": 531446
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 223516,
+                    "ap2ID": 470428
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 506380,
+                    "ap2ID": 245726
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 531446,
+                    "ap2ID": 877744
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 470428,
+                    "ap2ID": 245726
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 877744,
+                    "ap2ID": 245726
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 245726
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Front Roller Hardware",
-            "x": 540,
-            "y": 266,
+            "x": 535,
+            "y": 256,
             "uniqueID": 251253,
             "ioValues": [
                 {
@@ -23,13 +252,17 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "11mm M4 Spacer",
-                    "x": 232,
-                    "y": 142,
-                    "uniqueID": 285784,
-                    "projectID": "229320887",
-                    "ioValues": []
+                    "atomType": "Molecule",
+                    "name": "Hardware Stack",
+                    "x": 259,
+                    "y": 139,
+                    "uniqueID": 744299,
+                    "ioValues": [
+                        {
+                            "name": "Metal Thickness",
+                            "ioValue": 3.125
+                        }
+                    ]
                 },
                 {
                     "atomType": "Translate",
@@ -40,11 +273,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 65
+                            "ioValue": 71
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 10
+                            "ioValue": 3.5
                         },
                         {
                             "name": "zDist",
@@ -55,17 +288,17 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 397,
-                    "y": 213,
+                    "x": 390,
+                    "y": 207,
                     "uniqueID": 498139,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 65
+                            "ioValue": 71
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -10
+                            "ioValue": -3.5
                         },
                         {
                             "name": "zDist",
@@ -115,18 +348,25 @@
                     "ap2ID": 498139
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 285784,
-                    "ap2ID": 498139
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Metal Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 581757,
+                    "ap2ID": 744299
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 285784,
+                    "ap1ID": 744299,
                     "ap2ID": 860639
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 744299,
+                    "ap2ID": 498139
                 },
                 {
                     "ap1Name": "geometry",
@@ -238,8 +478,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Front Roller Hardware",
-                    "x": 540,
-                    "y": 266,
+                    "x": 535,
+                    "y": 256,
                     "uniqueID": 251253,
                     "ioValues": [
                         {
@@ -398,5 +638,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": "1.3"
 }
