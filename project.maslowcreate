@@ -3,12 +3,94 @@
         {
             "atomType": "Molecule",
             "name": "Front Roller Hardware",
-            "x": 585,
-            "y": 263,
+            "x": 540,
+            "y": 266,
             "uniqueID": 251253,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Metal Thickness",
+                    "ioValue": 3.125
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Metal Thickness",
+                    "x": 30,
+                    "y": 148,
+                    "uniqueID": 581757,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "11mm M4 Spacer",
+                    "x": 232,
+                    "y": 142,
+                    "uniqueID": 285784,
+                    "projectID": "229320887",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 392,
+                    "y": 72,
+                    "uniqueID": 860639,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 65
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 3.125
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 397,
+                    "y": 213,
+                    "uniqueID": 498139,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 65
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -10
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 3.125
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 626,
+                    "y": 132,
+                    "uniqueID": 940004,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -17,7 +99,56 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 581757,
+                    "ap2ID": 860639
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 581757,
+                    "ap2ID": 498139
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 285784,
+                    "ap2ID": 498139
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 285784,
+                    "ap2ID": 860639
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 860639,
+                    "ap2ID": 940004
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 498139,
+                    "ap2ID": 940004
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 940004
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -105,6 +236,19 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Front Roller Hardware",
+                    "x": 540,
+                    "y": 266,
+                    "uniqueID": 251253,
+                    "ioValues": [
+                        {
+                            "name": "Metal Thickness",
+                            "ioValue": 3.125
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 608,
@@ -126,14 +270,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Front Roller Hardware",
-                    "x": 585,
-                    "y": 263,
-                    "uniqueID": 251253,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 733,
@@ -150,6 +286,10 @@
                         },
                         {
                             "name": "3D shape 3",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 4",
                             "ioValue": 10
                         }
                     ],
@@ -208,6 +348,13 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "Metal Thickness",
+                    "ap2Primary": false,
+                    "ap1ID": 157663,
+                    "ap2ID": 251253
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": 431286,
@@ -225,6 +372,13 @@
                     "ap2Name": "3D shape 2",
                     "ap2Primary": false,
                     "ap1ID": 413166,
+                    "ap2ID": 451066
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 4",
+                    "ap2Primary": false,
+                    "ap1ID": 251253,
                     "ap2ID": 451066
                 },
                 {

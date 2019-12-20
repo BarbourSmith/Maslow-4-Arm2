@@ -2,7 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|11mm M4 Spacer|2|$3.10|https://www.mcmaster.com/92871a311|
 |Spool|1|$16.00|www.example.com|
-|Total: |1|$16.00| |
+|Total: |3|$19.10| |
 
- 3xCOG MSRP: $48.00
+ 3xCOG MSRP: $57.30
