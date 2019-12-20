@@ -2,6 +2,26 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Front Roller Hardware",
+            "x": 585,
+            "y": 263,
+            "uniqueID": 251253,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Maslow 4 Arm2",
             "x": 0,
             "y": 0,
@@ -12,8 +32,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow 4 Metal Arm Spacer",
-                    "x": 107,
-                    "y": 78,
+                    "x": 82,
+                    "y": 55,
                     "uniqueID": 930341,
                     "projectID": "229145990",
                     "ioValues": []
@@ -21,8 +41,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Maslow 4 Spool2",
-                    "x": 91,
-                    "y": 257,
+                    "x": 94,
+                    "y": 216,
                     "uniqueID": 635651,
                     "projectID": "229143779",
                     "ioValues": []
@@ -30,8 +50,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Measure Height",
-                    "x": 236,
-                    "y": 141,
+                    "x": 228,
+                    "y": 109,
                     "uniqueID": 157663,
                     "projectID": "229185705",
                     "ioValues": []
@@ -39,8 +59,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Measure Height",
-                    "x": 234,
-                    "y": 199,
+                    "x": 224,
+                    "y": 163,
                     "uniqueID": 431286,
                     "projectID": "229185705",
                     "ioValues": []
@@ -48,8 +68,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 416,
-                    "y": 164,
+                    "x": 403,
+                    "y": 133,
                     "uniqueID": 791162,
                     "ioValues": [
                         {
@@ -58,7 +78,7 @@
                         },
                         {
                             "name": "y",
-                            "ioValue": 3.1250000000000004
+                            "ioValue": 3.125
                         }
                     ],
                     "currentEquation": "x + y"
@@ -66,8 +86,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 478,
-                    "y": 250,
+                    "x": 482,
+                    "y": 185,
                     "uniqueID": 413166,
                     "ioValues": [
                         {
@@ -104,6 +124,14 @@
                             "ioValue": 14.625003195043744
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Front Roller Hardware",
+                    "x": 585,
+                    "y": 263,
+                    "uniqueID": 251253,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
