@@ -616,8 +616,8 @@
         {
             "atomType": "Molecule",
             "name": "Cable",
-            "x": 581,
-            "y": 268,
+            "x": 479,
+            "y": 284,
             "uniqueID": 429059,
             "ioValues": [],
             "topLevel": false,
@@ -638,8 +638,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 367,
-                    "y": 109,
+                    "x": 323,
+                    "y": 75,
                     "uniqueID": 417932,
                     "ioValues": [
                         {
@@ -651,8 +651,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 580,
-                    "y": 127,
+                    "x": 500,
+                    "y": 78,
                     "uniqueID": 492933,
                     "ioValues": [],
                     "selectedColorIndex": "9"
@@ -660,8 +660,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 782,
-                    "y": 137,
+                    "x": 678,
+                    "y": 59,
                     "uniqueID": 398630,
                     "ioValues": [],
                     "BOMitem": {
@@ -675,8 +675,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 895,
-                    "y": 193,
+                    "x": 894,
+                    "y": 135,
                     "uniqueID": 651345,
                     "ioValues": [
                         {
@@ -850,6 +850,14 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Cable",
+                    "x": 479,
+                    "y": 284,
+                    "uniqueID": 429059,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 608,
@@ -871,18 +879,31 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Cable",
-                    "x": 581,
-                    "y": 268,
-                    "uniqueID": 429059,
-                    "ioValues": []
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 648,
+                    "y": 257,
+                    "uniqueID": 369459,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 60
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 12
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 733,
-                    "y": 168,
+                    "x": 730,
+                    "y": 167,
                     "uniqueID": 451066,
                     "ioValues": [
                         {
@@ -903,6 +924,10 @@
                         },
                         {
                             "name": "3D shape 5",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 6",
                             "ioValue": 10
                         }
                     ],
@@ -1009,10 +1034,24 @@
                     "ap2ID": 451066
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 429059,
+                    "ap2ID": 369459
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 133385,
+                    "ap2ID": 451066
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 6",
+                    "ap2Primary": false,
+                    "ap1ID": 369459,
                     "ap2ID": 451066
                 },
                 {

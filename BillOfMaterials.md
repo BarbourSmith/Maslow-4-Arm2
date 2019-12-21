@@ -7,6 +7,7 @@
 |11mm M4 Spacer|2|$3.10|https://www.mcmaster.com/92871a311|
 |M4 Locknut|2|$0.23|https://www.mcmaster.com/94645a101|
 |Spool|1|$16.00|www.example.com|
-|Total: |8|$21.25| |
+|Amsteel Blue|11|$0.00|www.example.com|
+|Total: |19|$21.25| |
 
  3xCOG MSRP: $63.75
