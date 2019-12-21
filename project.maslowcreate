@@ -615,6 +615,132 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Cable",
+            "x": 581,
+            "y": 268,
+            "uniqueID": 429059,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 145,
+                    "y": 122,
+                    "uniqueID": 759591,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 2.7
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 367,
+                    "y": 109,
+                    "uniqueID": 417932,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 100
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 580,
+                    "y": 127,
+                    "uniqueID": 492933,
+                    "ioValues": [],
+                    "selectedColorIndex": "9"
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 782,
+                    "y": 137,
+                    "uniqueID": 398630,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Amsteel Blue",
+                        "numberNeeded": 11,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 895,
+                    "y": 193,
+                    "uniqueID": 651345,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 90
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 759591,
+                    "ap2ID": 417932
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 417932,
+                    "ap2ID": 492933
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 492933,
+                    "ap2ID": 398630
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 398630,
+                    "ap2ID": 651345
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 651345
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Maslow 4 Arm2",
             "x": 0,
             "y": 0,
@@ -743,6 +869,14 @@
                             "ioValue": 14.625003195043744
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Cable",
+                    "x": 581,
+                    "y": 268,
+                    "uniqueID": 429059,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
