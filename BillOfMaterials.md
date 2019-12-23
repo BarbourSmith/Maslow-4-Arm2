@@ -2,12 +2,18 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
 |GT2 Pulley|1|$1.68|https://www.amazon.com/ZRM-Timing-Pulley-Printer-Accessory/dp/B07L54BSXS|
-|M4 x 20mm Bolt|2|$0.24|https://www.mcmaster.com/91239a152|
+|AS5048 Encoder|1|$4.47|https://www.digikey.com/product-detail/en/ams/AS5048A-HTSP-500/AS5048A-HTSP-500TR-ND/3188615|
+|JST XH 6 Connector|1|$0.45|https://www.digikey.com/product-detail/en/jst-sales-america-inc/S6B-XH-SM4-TB-LF-SN/455-2264-2-ND/1651066|
+|Magnet|1|$0.17|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
+|M4 x 20mm Bolt|10|$1.19|https://www.mcmaster.com/91239a152|
 |11mm M4 Spacer|2|$3.10|https://www.mcmaster.com/92871a311|
-|M4 Locknut|2|$0.23|https://www.mcmaster.com/94645a101|
+|M4 Locknut|10|$1.16|https://www.mcmaster.com/94645a101|
+|100nf 10uf Filter Caps|1|$0.10|www.digikey.com|
 |Spool|1|$16.00|www.example.com|
 |Amsteel Blue|11|$0.00|www.example.com|
-|Total: |19|$21.25| |
+|Roller|1|$3.50|www.example.com|
+|Total: |42|$34.82| |
 
- 3xCOG MSRP: $63.75
+ 3xCOG MSRP: $104.47

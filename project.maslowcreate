@@ -2,40 +2,6 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Roller",
-            "x": 328,
-            "y": 260,
-            "uniqueID": 408216,
-            "ioValues": [],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Roller Assembly",
-                    "x": 274,
-                    "y": 175,
-                    "uniqueID": 744014,
-                    "projectID": "197766474",
-                    "ioValues": [
-                        {
-                            "name": "Distance Between Walls",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Hardware Stack",
             "x": 259,
             "y": 139,
@@ -576,7 +542,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": 45
+                            "ioValue": 135
                         }
                     ]
                 },
@@ -775,6 +741,75 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Roller",
+            "x": 521,
+            "y": 288,
+            "uniqueID": 408216,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller Assembly",
+                    "x": 274,
+                    "y": 175,
+                    "uniqueID": 744014,
+                    "projectID": "197766474",
+                    "ioValues": [
+                        {
+                            "name": "Distance Between Walls",
+                            "ioValue": 22
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 546,
+                    "y": 146,
+                    "uniqueID": 362158,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 90
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 744014,
+                    "ap2ID": 362158
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 362158
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Maslow 4 Arm2",
             "x": 0,
             "y": 0,
@@ -816,14 +851,6 @@
                     "y": 163,
                     "uniqueID": 431286,
                     "projectID": "229185705",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Roller",
-                    "x": 328,
-                    "y": 260,
-                    "uniqueID": 408216,
                     "ioValues": []
                 },
                 {
@@ -900,6 +927,14 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Roller",
+                    "x": 521,
+                    "y": 288,
+                    "uniqueID": 408216,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 595,
@@ -942,10 +977,31 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 723,
+                    "y": 257,
+                    "uniqueID": 713541,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 55
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 782,
-                    "y": 37,
+                    "x": 860,
+                    "y": 93,
                     "uniqueID": 451066,
                     "ioValues": [
                         {
@@ -970,6 +1026,10 @@
                         },
                         {
                             "name": "3D shape 6",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 7",
                             "ioValue": 10
                         }
                     ],
@@ -1083,6 +1143,13 @@
                     "ap2ID": 451066
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 408216,
+                    "ap2ID": 713541
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
@@ -1094,6 +1161,13 @@
                     "ap2Name": "3D shape 6",
                     "ap2Primary": false,
                     "ap1ID": 369459,
+                    "ap2ID": 451066
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": 713541,
                     "ap2ID": 451066
                 },
                 {
