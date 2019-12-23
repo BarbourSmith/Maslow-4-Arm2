@@ -2,6 +2,40 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Roller",
+            "x": 328,
+            "y": 260,
+            "uniqueID": 408216,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller Assembly",
+                    "x": 274,
+                    "y": 175,
+                    "uniqueID": 744014,
+                    "projectID": "197766474",
+                    "ioValues": [
+                        {
+                            "name": "Distance Between Walls",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Hardware Stack",
             "x": 259,
             "y": 139,
@@ -394,8 +428,8 @@
         {
             "atomType": "Molecule",
             "name": "Drive Belt",
-            "x": 403,
-            "y": 252,
+            "x": 426,
+            "y": 194,
             "uniqueID": 966307,
             "ioValues": [
                 {
@@ -616,8 +650,8 @@
         {
             "atomType": "Molecule",
             "name": "Cable",
-            "x": 479,
-            "y": 284,
+            "x": 493,
+            "y": 220,
             "uniqueID": 429059,
             "ioValues": [],
             "topLevel": false,
@@ -785,6 +819,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Roller",
+                    "x": 328,
+                    "y": 260,
+                    "uniqueID": 408216,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 403,
@@ -818,8 +860,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Drive Belt",
-                    "x": 403,
-                    "y": 252,
+                    "x": 426,
+                    "y": 194,
                     "uniqueID": 966307,
                     "ioValues": [
                         {
@@ -829,10 +871,18 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Cable",
+                    "x": 493,
+                    "y": 220,
+                    "uniqueID": 429059,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 482,
-                    "y": 185,
+                    "x": 531,
+                    "y": 142,
                     "uniqueID": 413166,
                     "ioValues": [
                         {
@@ -850,18 +900,10 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Cable",
-                    "x": 479,
-                    "y": 284,
-                    "uniqueID": 429059,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 608,
-                    "y": 58,
+                    "x": 595,
+                    "y": 101,
                     "uniqueID": 133385,
                     "ioValues": [
                         {
@@ -881,8 +923,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 648,
-                    "y": 257,
+                    "x": 663,
+                    "y": 167,
                     "uniqueID": 369459,
                     "ioValues": [
                         {
@@ -902,8 +944,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 730,
-                    "y": 167,
+                    "x": 782,
+                    "y": 37,
                     "uniqueID": 451066,
                     "ioValues": [
                         {
@@ -1027,18 +1069,18 @@
                     "ap2ID": 451066
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 413166,
-                    "ap2ID": 451066
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 429059,
                     "ap2ID": 369459
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 413166,
+                    "ap2ID": 451066
                 },
                 {
                     "ap1Name": "geometry",
