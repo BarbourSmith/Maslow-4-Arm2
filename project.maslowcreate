@@ -741,6 +741,105 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Roller",
+            "x": 558,
+            "y": 272,
+            "uniqueID": 945031,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Bearing Block 2",
+                    "x": 359,
+                    "y": 79,
+                    "uniqueID": 179989,
+                    "projectID": "229987739",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "Roller",
+                    "x": 349,
+                    "y": 197,
+                    "uniqueID": 331432,
+                    "projectID": "197579630",
+                    "ioValues": [
+                        {
+                            "name": "Center Length",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 650,
+                    "y": 117,
+                    "uniqueID": 804743,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 828,
+                    "y": 161,
+                    "uniqueID": 226556,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 1",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 179989,
+                    "ap2ID": 804743
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 1",
+                    "ap2Primary": false,
+                    "ap1ID": 804743,
+                    "ap2ID": 226556
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 226556
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Maslow 4 Arm2",
             "x": 0,
             "y": 0,
@@ -879,10 +978,18 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Roller",
+                    "x": 558,
+                    "y": 272,
+                    "uniqueID": 945031,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 698,
-                    "y": 188,
+                    "x": 700,
+                    "y": 167,
                     "uniqueID": 369459,
                     "ioValues": [
                         {
