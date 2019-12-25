@@ -748,7 +748,7 @@
             "ioValues": [
                 {
                     "name": "Vertical Offset",
-                    "ioValue": 17.750003195043746
+                    "ioValue": 17.75
                 }
             ],
             "topLevel": false,
@@ -780,7 +780,7 @@
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 17.750003195043746
+                            "ioValue": 17.75
                         }
                     ]
                 },
@@ -843,7 +843,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 17.750003195043746
+                            "ioValue": 17.75
                         }
                     ]
                 },
@@ -1025,7 +1025,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 11.500003195043744
+                            "ioValue": 11.5
                         },
                         {
                             "name": "y",
@@ -1043,7 +1043,7 @@
                     "ioValues": [
                         {
                             "name": "P",
-                            "ioValue": 11.500003195043744
+                            "ioValue": 11.5
                         },
                         {
                             "name": "S",
@@ -1124,7 +1124,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 14.625003195043744
+                            "ioValue": 14.625
                         }
                     ]
                 },
@@ -1158,7 +1158,7 @@
                     "ioValues": [
                         {
                             "name": "Vertical Offset",
-                            "ioValue": 17.750003195043746
+                            "ioValue": 17.75
                         }
                     ]
                 },
