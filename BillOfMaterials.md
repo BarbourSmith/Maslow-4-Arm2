@@ -2,12 +2,16 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
 |GT2 Pulley|1|$1.68|https://www.amazon.com/ZRM-Timing-Pulley-Printer-Accessory/dp/B07L54BSXS|
+|Magnet|1|$0.17|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
 |M4 x 20mm Bolt|2|$0.24|https://www.mcmaster.com/91239a152|
 |11mm M4 Spacer|2|$3.10|https://www.mcmaster.com/92871a311|
 |M4 Locknut|2|$0.23|https://www.mcmaster.com/94645a101|
 |Spool|1|$16.00|www.example.com|
 |Amsteel Blue|11|$0.00|www.example.com|
-|Total: |19|$21.25| |
+|Bearing Block|2|$8.00|www.example.com|
+|Roller|1|$3.50|www.example.com|
+|Total: |25|$35.92| |
 
- 3xCOG MSRP: $63.75
+ 3xCOG MSRP: $107.76

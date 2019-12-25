@@ -742,12 +742,25 @@
         {
             "atomType": "Molecule",
             "name": "Roller",
-            "x": 558,
-            "y": 272,
+            "x": 716,
+            "y": 256,
             "uniqueID": 945031,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Vertical Offset",
+                    "ioValue": 17.750003195043746
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Vertical Offset",
+                    "x": 30,
+                    "y": 128,
+                    "uniqueID": 406968,
+                    "ioValues": []
+                },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Bearing Block 2",
@@ -760,14 +773,56 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 349,
-                    "y": 197,
+                    "x": 385,
+                    "y": 261,
                     "uniqueID": 331432,
                     "projectID": "197579630",
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 10
+                            "ioValue": 17.750003195043746
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 528,
+                    "y": 175,
+                    "uniqueID": 860817,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 573,
+                    "y": 273,
+                    "uniqueID": 308344,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -788,19 +843,48 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 17.750003195043746
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 773,
+                    "y": 243,
+                    "uniqueID": 361966,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 65
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 25
                         }
                     ]
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 828,
-                    "y": 161,
+                    "x": 966,
+                    "y": 144,
                     "uniqueID": 226556,
                     "ioValues": [
                         {
                             "name": "3D shape 1",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 2",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 3",
                             "ioValue": 10
                         }
                     ],
@@ -816,6 +900,20 @@
             ],
             "allConnectors": [
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 406968,
+                    "ap2ID": 804743
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "Center Length",
+                    "ap2Primary": false,
+                    "ap1ID": 406968,
+                    "ap2ID": 331432
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -823,10 +921,45 @@
                     "ap2ID": 804743
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 179989,
+                    "ap2ID": 860817
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 331432,
+                    "ap2ID": 308344
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 2",
+                    "ap2Primary": false,
+                    "ap1ID": 860817,
+                    "ap2ID": 226556
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 308344,
+                    "ap2ID": 361966
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 1",
                     "ap2Primary": false,
                     "ap1ID": 804743,
+                    "ap2ID": 226556
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 361966,
                     "ap2ID": 226556
                 },
                 {
@@ -900,6 +1033,24 @@
                         }
                     ],
                     "currentEquation": "x + y"
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 364,
+                    "y": 266,
+                    "uniqueID": 289155,
+                    "ioValues": [
+                        {
+                            "name": "P",
+                            "ioValue": 11.500003195043744
+                        },
+                        {
+                            "name": "S",
+                            "ioValue": 3.125
+                        }
+                    ],
+                    "currentEquation": "P + 2*S"
                 },
                 {
                     "atomType": "Molecule",
@@ -978,14 +1129,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Roller",
-                    "x": 558,
-                    "y": 272,
-                    "uniqueID": 945031,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 700,
@@ -1003,6 +1146,19 @@
                         {
                             "name": "zDist",
                             "ioValue": 12
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Roller",
+                    "x": 716,
+                    "y": 256,
+                    "uniqueID": 945031,
+                    "ioValues": [
+                        {
+                            "name": "Vertical Offset",
+                            "ioValue": 17.750003195043746
                         }
                     ]
                 },
@@ -1035,6 +1191,10 @@
                         },
                         {
                             "name": "3D shape 6",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 7",
                             "ioValue": 10
                         }
                     ],
@@ -1107,10 +1267,24 @@
                 },
                 {
                     "ap1Name": "Geometry",
+                    "ap2Name": "S",
+                    "ap2Primary": false,
+                    "ap1ID": 157663,
+                    "ap2ID": 289155
+                },
+                {
+                    "ap1Name": "Geometry",
                     "ap2Name": "x",
                     "ap2Primary": false,
                     "ap1ID": 431286,
                     "ap2ID": 791162
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "P",
+                    "ap2Primary": false,
+                    "ap1ID": 431286,
+                    "ap2ID": 289155
                 },
                 {
                     "ap1Name": "result",
@@ -1118,6 +1292,13 @@
                     "ap2Primary": false,
                     "ap1ID": 791162,
                     "ap2ID": 133385
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "Vertical Offset",
+                    "ap2Primary": false,
+                    "ap1ID": 289155,
+                    "ap2ID": 945031
                 },
                 {
                     "ap1Name": "Geometry",
@@ -1159,6 +1340,13 @@
                     "ap2Name": "3D shape 6",
                     "ap2Primary": false,
                     "ap1ID": 369459,
+                    "ap2ID": 451066
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 7",
+                    "ap2Primary": false,
+                    "ap1ID": 945031,
                     "ap2ID": 451066
                 },
                 {
