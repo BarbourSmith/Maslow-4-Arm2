@@ -423,7 +423,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 70
+                            "ioValue": 75
                         },
                         {
                             "name": "Sprocket One Size",
@@ -431,7 +431,7 @@
                         },
                         {
                             "name": "Sprocket 2 Size",
-                            "ioValue": 100
+                            "ioValue": 103
                         }
                     ]
                 },
@@ -466,6 +466,21 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 495,
+                    "y": 130,
+                    "uniqueID": 644106,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "2GT Belt",
+                        "numberNeeded": 1,
+                        "costUSD": 1.688,
+                        "source": "https://www.amazon.com/Belt-Timing-Closed-Loop-2GT/dp/B014SNZGGC/",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 556,
@@ -494,11 +509,11 @@
                     "uniqueID": 240657,
                     "ioValues": [
                         {
-                            "name": "3D shape 2",
+                            "name": "3D shape 3",
                             "ioValue": 10
                         },
                         {
-                            "name": "3D shape 3",
+                            "name": "3D shape 5",
                             "ioValue": 10
                         }
                     ],
@@ -564,10 +579,10 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
                     "ap1ID": 767007,
-                    "ap2ID": 240657
+                    "ap2ID": 644106
                 },
                 {
                     "ap1Name": "Geometry",
@@ -582,6 +597,13 @@
                     "ap2Primary": true,
                     "ap1ID": 634697,
                     "ap2ID": 935467
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 5",
+                    "ap2Primary": false,
+                    "ap1ID": 644106,
+                    "ap2ID": 240657
                 },
                 {
                     "ap1Name": "geometry",
