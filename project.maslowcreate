@@ -152,7 +152,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -328,7 +328,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -578,7 +578,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -746,7 +746,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -806,15 +806,15 @@
                     "atomType": "Input",
                     "name": "Vertical Offset",
                     "x": 30,
-                    "y": 128,
+                    "y": 215,
                     "uniqueID": 406968,
                     "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Bearing Block 2",
-                    "x": 359,
-                    "y": 79,
+                    "x": 326,
+                    "y": 75,
                     "uniqueID": 179989,
                     "projectID": "229987739",
                     "ioValues": []
@@ -830,27 +830,6 @@
                         {
                             "name": "Center Length",
                             "ioValue": 17.750000000000004
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 528,
-                    "y": 175,
-                    "uniqueID": 860817,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
                         }
                     ]
                 },
@@ -878,8 +857,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 650,
-                    "y": 117,
+                    "x": 673,
+                    "y": 180,
                     "uniqueID": 804743,
                     "ioValues": [
                         {
@@ -920,16 +899,12 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 966,
-                    "y": 144,
+                    "x": 1020,
+                    "y": 219,
                     "uniqueID": 226556,
                     "ioValues": [
                         {
                             "name": "3D shape 1",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 2",
                             "ioValue": 10
                         },
                         {
@@ -943,7 +918,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -973,22 +948,8 @@
                     "ap1Name": "Geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
-                    "ap1ID": 179989,
-                    "ap2ID": 860817
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
                     "ap1ID": 331432,
                     "ap2ID": 308344
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 2",
-                    "ap2Primary": false,
-                    "ap1ID": 860817,
-                    "ap2ID": 226556
                 },
                 {
                     "ap1Name": "geometry",
@@ -1253,7 +1214,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 153,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
