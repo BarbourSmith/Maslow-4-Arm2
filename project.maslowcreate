@@ -414,6 +414,19 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Spacing",
+                    "x": 105,
+                    "y": 205,
+                    "uniqueID": 663800,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 72
+                        }
+                    ]
+                },
+                {
                     "atomType": "GitHubMolecule",
                     "name": "GT2 Belt Aproximation ",
                     "x": 229,
@@ -423,7 +436,7 @@
                     "ioValues": [
                         {
                             "name": "Dist Between Centers",
-                            "ioValue": 75
+                            "ioValue": 72
                         },
                         {
                             "name": "Sprocket One Size",
@@ -489,7 +502,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 70
+                            "ioValue": 72
                         },
                         {
                             "name": "yDist",
@@ -576,6 +589,20 @@
                     "ap2Primary": false,
                     "ap1ID": 829801,
                     "ap2ID": 141144
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Dist Between Centers",
+                    "ap2Primary": false,
+                    "ap1ID": 663800,
+                    "ap2ID": 767007
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 663800,
+                    "ap2ID": 935467
                 },
                 {
                     "ap1Name": "Geometry",

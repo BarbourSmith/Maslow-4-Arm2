@@ -2,6 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
+|2GT Belt|1|$1.69|https://www.amazon.com/Belt-Timing-Closed-Loop-2GT/dp/B014SNZGGC/|
 |Bearing|2|$3.00|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
 |GT2 Pulley|1|$1.68|https://www.amazon.com/ZRM-Timing-Pulley-Printer-Accessory/dp/B07L54BSXS|
 |Magnet|1|$0.17|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
@@ -12,6 +13,6 @@
 |Amsteel Blue|11|$0.00|www.example.com|
 |Bearing Block|2|$8.00|www.example.com|
 |Roller|1|$3.50|www.example.com|
-|Total: |25|$35.92| |
+|Total: |26|$37.61| |
 
- 3xCOG MSRP: $107.76
+ 3xCOG MSRP: $112.82
