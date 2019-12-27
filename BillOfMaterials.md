@@ -5,14 +5,17 @@
 |2GT Belt|1|$1.69|https://www.amazon.com/Belt-Timing-Closed-Loop-2GT/dp/B014SNZGGC/|
 |Bearing|1|$1.50|https://www.amazon.com/RollerBones-Bones-Roller-Bearings/dp/B0094J6GQ0|
 |GT2 Pulley|1|$1.68|https://www.amazon.com/ZRM-Timing-Pulley-Printer-Accessory/dp/B07L54BSXS|
+|AS5048 Encoder|1|$4.47|https://www.digikey.com/product-detail/en/ams/AS5048A-HTSP-500/AS5048A-HTSP-500TR-ND/3188615|
+|JST XH 6 Connector|1|$0.45|https://www.digikey.com/product-detail/en/jst-sales-america-inc/S6B-XH-SM4-TB-LF-SN/455-2264-2-ND/1651066|
 |Magnet|1|$0.17|https://www.digikey.com/product-detail/en/radial-magnet-inc/9049/469-1075-ND/6030786|
 |M4 x 20mm Bolt|2|$0.24|https://www.mcmaster.com/91239a152|
 |11mm M4 Spacer|2|$3.10|https://www.mcmaster.com/92871a311|
 |M4 Locknut|2|$0.23|https://www.mcmaster.com/94645a101|
+|100nf 10uf Filter Caps|1|$0.10|www.digikey.com|
 |Spool|1|$16.00|www.example.com|
 |Amsteel Blue|11|$0.00|www.example.com|
 |Bearing Block|1|$4.00|www.example.com|
 |Roller|1|$3.50|www.example.com|
-|Total: |24|$32.11| |
+|Total: |27|$37.13| |
 
- 3xCOG MSRP: $96.32
+ 3xCOG MSRP: $111.38
