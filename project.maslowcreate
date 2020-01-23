@@ -71,6 +71,10 @@
                     "uniqueID": 531446,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -92,6 +96,10 @@
                     "uniqueID": 470428,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -112,6 +120,10 @@
                     "y": 218,
                     "uniqueID": 877744,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -272,6 +284,10 @@
                     "uniqueID": 860639,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 81
                         },
@@ -292,6 +308,10 @@
                     "y": 207,
                     "uniqueID": 498139,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 81
@@ -465,6 +485,10 @@
                     "uniqueID": 634697,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -500,6 +524,10 @@
                     "y": 225,
                     "uniqueID": 935467,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 72
@@ -540,6 +568,10 @@
                     "uniqueID": 141144,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -560,6 +592,10 @@
                     "y": 145,
                     "uniqueID": 788757,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -729,6 +765,10 @@
                     "uniqueID": 651345,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 0
                         },
@@ -791,8 +831,8 @@
         {
             "atomType": "Molecule",
             "name": "Roller",
-            "x": 713,
-            "y": 229,
+            "x": 715,
+            "y": 263,
             "uniqueID": 945031,
             "ioValues": [
                 {
@@ -841,6 +881,10 @@
                     "uniqueID": 308344,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "x-axis degrees",
                             "ioValue": 180
                         },
@@ -862,6 +906,10 @@
                     "uniqueID": 804743,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -882,6 +930,10 @@
                     "y": 243,
                     "uniqueID": 361966,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 65
@@ -1015,7 +1067,12 @@
                     "y": 109,
                     "uniqueID": 157663,
                     "projectID": "229185705",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -1024,7 +1081,12 @@
                     "y": 163,
                     "uniqueID": 431286,
                     "projectID": "229185705",
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Equation",
@@ -1043,24 +1105,6 @@
                         }
                     ],
                     "currentEquation": "x + y"
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 364,
-                    "y": 266,
-                    "uniqueID": 289155,
-                    "ioValues": [
-                        {
-                            "name": "P",
-                            "ioValue": 11.500000000000004
-                        },
-                        {
-                            "name": "S",
-                            "ioValue": 3.125
-                        }
-                    ],
-                    "currentEquation": "P + 2*S"
                 },
                 {
                     "atomType": "Molecule",
@@ -1089,6 +1133,24 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 431,
+                    "y": 268,
+                    "uniqueID": 289155,
+                    "ioValues": [
+                        {
+                            "name": "P",
+                            "ioValue": 11.500000000000004
+                        },
+                        {
+                            "name": "S",
+                            "ioValue": 3.125
+                        }
+                    ],
+                    "currentEquation": "P + 2*S"
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Cable",
                     "x": 493,
@@ -1103,6 +1165,10 @@
                     "y": 142,
                     "uniqueID": 413166,
                     "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -1125,6 +1191,10 @@
                     "uniqueID": 133385,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -1146,6 +1216,10 @@
                     "uniqueID": 369459,
                     "ioValues": [
                         {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "xDist",
                             "ioValue": 60
                         },
@@ -1162,8 +1236,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller",
-                    "x": 713,
-                    "y": 229,
+                    "x": 715,
+                    "y": 263,
                     "uniqueID": 945031,
                     "ioValues": [
                         {
@@ -1304,13 +1378,6 @@
                     "ap2ID": 133385
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "Vertical Offset",
-                    "ap2Primary": false,
-                    "ap1ID": 289155,
-                    "ap2ID": 945031
-                },
-                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 4",
                     "ap2Primary": false,
@@ -1323,6 +1390,13 @@
                     "ap2Primary": false,
                     "ap1ID": 966307,
                     "ap2ID": 451066
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "Vertical Offset",
+                    "ap2Primary": false,
+                    "ap1ID": 289155,
+                    "ap2ID": 945031
                 },
                 {
                     "ap1Name": "Geometry",
