@@ -2,6 +2,256 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Drive Belt",
+            "x": 412,
+            "y": 195,
+            "uniqueID": 966307,
+            "ioValues": [
+                {
+                    "name": "Metal Thickness",
+                    "ioValue": 3.125
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Metal Thickness",
+                    "x": 30,
+                    "y": 80,
+                    "uniqueID": 829801,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Spacing",
+                    "x": 105,
+                    "y": 205,
+                    "uniqueID": 663800,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 72
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "GT2 Belt Aproximation ",
+                    "x": 250,
+                    "y": 139,
+                    "uniqueID": 767007,
+                    "projectID": "229325783",
+                    "ioValues": [
+                        {
+                            "name": "Dist Between Centers",
+                            "ioValue": 72
+                        },
+                        {
+                            "name": "Sprocket One Size",
+                            "ioValue": 9
+                        },
+                        {
+                            "name": "Sprocket 2 Size",
+                            "ioValue": 103
+                        }
+                    ]
+                },
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "GT2 Pulley 20tooth",
+                    "x": 237,
+                    "y": 259,
+                    "uniqueID": 204724,
+                    "projectID": "229327101",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 396,
+                    "y": 239,
+                    "uniqueID": 634697,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 542,
+                    "y": 158,
+                    "uniqueID": 935467,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 72
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 13
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 687,
+                    "y": 177,
+                    "uniqueID": 240657,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 3",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 791,
+                    "y": 81,
+                    "uniqueID": 141144,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 3.125
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 1042,
+                    "y": 145,
+                    "uniqueID": 788757,
+                    "ioValues": [
+                        {
+                            "name": "geometry",
+                            "ioValue": ""
+                        },
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 135
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 163.5,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap2Primary": false,
+                    "ap1ID": 829801,
+                    "ap2ID": 141144
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Dist Between Centers",
+                    "ap2Primary": false,
+                    "ap1ID": 663800,
+                    "ap2ID": 767007
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "xDist",
+                    "ap2Primary": false,
+                    "ap1ID": 663800,
+                    "ap2ID": 935467
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 204724,
+                    "ap2ID": 634697
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 634697,
+                    "ap2ID": 935467
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 3",
+                    "ap2Primary": false,
+                    "ap1ID": 935467,
+                    "ap2ID": 240657
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 240657,
+                    "ap2ID": 141144
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 141144,
+                    "ap2ID": 788757
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 788757
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Hardware Stack",
             "x": 259,
             "y": 139,
@@ -70,10 +320,6 @@
                     "y": 220,
                     "uniqueID": 531446,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 0
@@ -413,293 +659,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Drive Belt",
-            "x": 426,
-            "y": 194,
-            "uniqueID": 966307,
-            "ioValues": [
-                {
-                    "name": "Metal Thickness",
-                    "ioValue": 3.125
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Metal Thickness",
-                    "x": 30,
-                    "y": 80,
-                    "uniqueID": 829801,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Spacing",
-                    "x": 105,
-                    "y": 205,
-                    "uniqueID": 663800,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 72
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "GT2 Belt Aproximation ",
-                    "x": 229,
-                    "y": 146,
-                    "uniqueID": 767007,
-                    "projectID": "229325783",
-                    "ioValues": [
-                        {
-                            "name": "Dist Between Centers",
-                            "ioValue": 72
-                        },
-                        {
-                            "name": "Sprocket One Size",
-                            "ioValue": 9
-                        },
-                        {
-                            "name": "Sprocket 2 Size",
-                            "ioValue": 103
-                        }
-                    ]
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "GT2 Pulley 20tooth",
-                    "x": 223,
-                    "y": 244,
-                    "uniqueID": 204724,
-                    "projectID": "229327101",
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 396,
-                    "y": 239,
-                    "uniqueID": 634697,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 495,
-                    "y": 130,
-                    "uniqueID": 644106,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "2GT Belt",
-                        "numberNeeded": 1,
-                        "costUSD": 1.688,
-                        "source": "https://www.amazon.com/Belt-Timing-Closed-Loop-2GT/dp/B014SNZGGC/",
-                        "totalNeeded": 0
-                    }
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 556,
-                    "y": 225,
-                    "uniqueID": 935467,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 72
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 13
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 687,
-                    "y": 177,
-                    "uniqueID": 240657,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 3",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 5",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 791,
-                    "y": 81,
-                    "uniqueID": 141144,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 3.125
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 1042,
-                    "y": 145,
-                    "uniqueID": 788757,
-                    "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 135
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 163.5,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap2Primary": false,
-                    "ap1ID": 829801,
-                    "ap2ID": 141144
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "Dist Between Centers",
-                    "ap2Primary": false,
-                    "ap1ID": 663800,
-                    "ap2ID": 767007
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "xDist",
-                    "ap2Primary": false,
-                    "ap1ID": 663800,
-                    "ap2ID": 935467
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 767007,
-                    "ap2ID": 644106
-                },
-                {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 204724,
-                    "ap2ID": 634697
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 634697,
-                    "ap2ID": 935467
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 5",
-                    "ap2Primary": false,
-                    "ap1ID": 644106,
-                    "ap2ID": 240657
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 3",
-                    "ap2Primary": false,
-                    "ap1ID": 935467,
-                    "ap2ID": 240657
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 240657,
-                    "ap2ID": 141144
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 141144,
-                    "ap2ID": 788757
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 788757
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Cable",
             "x": 493,
             "y": 220,
@@ -743,31 +702,12 @@
                     "selectedColorIndex": "9"
                 },
                 {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 678,
-                    "y": 59,
-                    "uniqueID": 398630,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "Amsteel Blue",
-                        "numberNeeded": 11,
-                        "costUSD": 0,
-                        "source": "www.example.com",
-                        "totalNeeded": 0
-                    }
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 894,
                     "y": 135,
                     "uniqueID": 651345,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -810,13 +750,6 @@
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 492933,
-                    "ap2ID": 398630
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 398630,
                     "ap2ID": 651345
                 },
                 {
@@ -831,13 +764,13 @@
         {
             "atomType": "Molecule",
             "name": "Roller",
-            "x": 715,
-            "y": 263,
+            "x": 688,
+            "y": 258,
             "uniqueID": 945031,
             "ioValues": [
                 {
                     "name": "Vertical Offset",
-                    "ioValue": 17.750000000000004
+                    "ioValue": 17.75
                 }
             ],
             "topLevel": false,
@@ -853,8 +786,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Bearing Block 2",
-                    "x": 326,
-                    "y": 75,
+                    "x": 367,
+                    "y": 97,
                     "uniqueID": 179989,
                     "projectID": "229987739",
                     "ioValues": []
@@ -862,14 +795,14 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "Roller",
-                    "x": 385,
-                    "y": 261,
+                    "x": 383,
+                    "y": 255,
                     "uniqueID": 331432,
                     "projectID": "197579630",
                     "ioValues": [
                         {
                             "name": "Center Length",
-                            "ioValue": 17.750000000000004
+                            "ioValue": 17.75
                         }
                     ]
                 },
@@ -919,7 +852,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 17.750000000000004
+                            "ioValue": 17.75
                         }
                     ]
                 },
@@ -1067,12 +1000,7 @@
                     "y": 109,
                     "uniqueID": 157663,
                     "projectID": "229185705",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "GitHubMolecule",
@@ -1081,12 +1009,7 @@
                     "y": 163,
                     "uniqueID": 431286,
                     "projectID": "229185705",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
-                        }
-                    ]
+                    "ioValues": []
                 },
                 {
                     "atomType": "Equation",
@@ -1097,7 +1020,7 @@
                     "ioValues": [
                         {
                             "name": "x",
-                            "ioValue": 11.500000000000004
+                            "ioValue": 11.5
                         },
                         {
                             "name": "y",
@@ -1108,10 +1031,10 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Front Roller Hardware",
-                    "x": 459,
-                    "y": 43,
-                    "uniqueID": 251253,
+                    "name": "Drive Belt",
+                    "x": 412,
+                    "y": 195,
+                    "uniqueID": 966307,
                     "ioValues": [
                         {
                             "name": "Metal Thickness",
@@ -1121,10 +1044,10 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Drive Belt",
-                    "x": 426,
-                    "y": 194,
-                    "uniqueID": 966307,
+                    "name": "Front Roller Hardware",
+                    "x": 459,
+                    "y": 43,
+                    "uniqueID": 251253,
                     "ioValues": [
                         {
                             "name": "Metal Thickness",
@@ -1141,7 +1064,7 @@
                     "ioValues": [
                         {
                             "name": "P",
-                            "ioValue": 11.500000000000004
+                            "ioValue": 11.5
                         },
                         {
                             "name": "S",
@@ -1166,10 +1089,6 @@
                     "uniqueID": 413166,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -1191,10 +1110,6 @@
                     "uniqueID": 133385,
                     "ioValues": [
                         {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
-                        {
                             "name": "xDist",
                             "ioValue": 0
                         },
@@ -1204,7 +1119,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 14.625000000000004
+                            "ioValue": 14.625
                         }
                     ]
                 },
@@ -1215,10 +1130,6 @@
                     "y": 167,
                     "uniqueID": 369459,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "xDist",
                             "ioValue": 60
@@ -1236,13 +1147,13 @@
                 {
                     "atomType": "Molecule",
                     "name": "Roller",
-                    "x": 715,
-                    "y": 263,
+                    "x": 688,
+                    "y": 258,
                     "uniqueID": 945031,
                     "ioValues": [
                         {
                             "name": "Vertical Offset",
-                            "ioValue": 17.750000000000004
+                            "ioValue": 17.75
                         }
                     ]
                 },
@@ -1379,16 +1290,16 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 4",
+                    "ap2Name": "3D shape 5",
                     "ap2Primary": false,
-                    "ap1ID": 251253,
+                    "ap1ID": 966307,
                     "ap2ID": 451066
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 5",
+                    "ap2Name": "3D shape 4",
                     "ap2Primary": false,
-                    "ap1ID": 966307,
+                    "ap1ID": 251253,
                     "ap2ID": 451066
                 },
                 {
